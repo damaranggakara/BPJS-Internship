@@ -1,0 +1,24 @@
+# Tema Streamlit -- disamakan dengan Dashboard/theme.py (gaya deck BPJS).
+#
+# Tanpa berkas ini, Streamlit mengikuti tema terang/gelap sistem pengguna:
+# panel samping menjadi gelap dan tombol utama berwarna merah bawaan, sehingga
+# bentrok dengan rancangan navy yang terang. Tema dikunci ke "light" supaya
+# tampilannya sama di komputer mana pun -- penting untuk presentasi.
+#
+# Streamlit membaca berkas ini dari folder tempat perintah dijalankan, jadi
+# jalankan dari akar proyek:
+#     streamlit run Dashboard/app_streamlit.py
+
+[theme]
+base = "light"
+primaryColor = "#153763"              # navy -- tombol & aksen
+backgroundColor = "#f9fbfe"           # latar halaman
+secondaryBackgroundColor = "#ffffff"  # panel samping & kartu
+textColor = "#1a1a1a"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
