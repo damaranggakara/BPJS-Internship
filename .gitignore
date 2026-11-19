@@ -1,0 +1,30 @@
+# Rebuilt by the notebooks and dashboard scripts, so not committed
+**/Data Setiap Target/
+**/models/
+*.joblib
+
+# Too large for GitHub (see 02-priority-village-access/README.md)
+*.zip
+
+# Local tooling and documents
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+*.docx
+*.pptx
+*.pdf
+
+# GIS layers stay local (QGIS work, not published)
+Layer QGIS/
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qgz
+*.qgs
+
+# Project 02 is code only (internal inputs)
+02-priority-village-access/Data Kementrian Koordinator dan FKTP/
+02-priority-village-access/Output/
